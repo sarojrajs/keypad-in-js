@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="./index.scss">
+  </head>
+  <body>
+    <table id="phone">
+	<tr>
+		<td colspan="3">
+			<input type="text" id="result" />
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<button data-value="1" class="key" onmousedown="insertNumberHandler(event,0)" onmouseup="addNumberToInputBox(0)">1
+          <span>. , !</span>
+        </button>
+		</td>
+		<td>
+			<button data-value="2" class="key" onmousedown="insertNumberHandler(event,1)" onmouseup="addNumberToInputBox(1)">2
+          <span>a b c</span>
+        </button>
+		</td>
+		<td>
+			<button data-value="3" class="key" onmousedown="insertNumberHandler(event,2)" onmouseup="addNumberToInputBox(2)">3
+          <span>d e f</span>
+        </button>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<button data-value="4" class="key" onmousedown="insertNumberHandler(event,3)" onmouseup="addNumberToInputBox(3)">4
+          <span>g h i</span>
+        </button>
+		</td>
+		<td>
+			<button data-value="5" class="key" onmousedown="insertNumberHandler(event,4)" onmouseup="addNumberToInputBox(4)">5
+          <span>j k l</span>
+        </button>
+		</td>
+		<td>
+			<button data-value="6" class="key" onmousedown="insertNumberHandler(event,5)" onmouseup="addNumberToInputBox(5)">6
+          <span>m n o</span>
+        </button>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<button data-value="7" class="key" onmousedown="insertNumberHandler(event,6)" onmouseup="addNumberToInputBox(6)">7
+          <span>p q r s</span>
+        </button>
+		</td>
+		<td>
+			<button data-value="8" class="key" onmousedown="insertNumberHandler(event,7)" onmouseup="addNumberToInputBox(7)">8
+          <span>t u v</span>
+        </button>
+		</td>
+		<td>
+			<button data-value="9" class="key" onmousedown="insertNumberHandler(event,8)" onmouseup="addNumberToInputBox(8)">9
+          <span>w x y z</span>
+        </button>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<button data-value="*" class="key" onmousedown="insertNumberHandler(event,9)" onmouseup="addNumberToInputBox(9)">*</button>
+		</td>
+		<td>
+			<button data-value="0" class="key" onmousedown="insertNumberHandler(event,10)" onmouseup="addNumberToInputBox(10)">0</button>
+		</td>
+		<td>
+			<button data-value="#" class="key" onmousedown="insertNumberHandler(event,11)" onmouseup="addNumberToInputBox(11)">#</button>
+		</td>
+	</tr>
+</table>
+<script src='./index.js'>
+
+</script>
+  </body>
+</html>
